@@ -111,6 +111,12 @@ public class AVLTree {
                 successorNode.right = delete(x.right, successorNode.data);
                 successorNode.left = x.left;
                 x = successorNode;
+                /*
+                另一种写法：
+                Node successorNode = minNode(x.right);
+                x.data = successorNode.data;
+                x.right = delete(x.right, successorNode.data);
+                 */
             }
         }
 
