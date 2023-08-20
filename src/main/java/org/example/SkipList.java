@@ -126,3 +126,7 @@ public class SkipList {
         System.out.println(skipList.exist(18));
     }
 }
+
+//https://www.jianshu.com/p/9d8296562806
+//https://zhuanlan.zhihu.com/p/101143158
+//https://zhuanlan.zhihu.com/p/68516038
